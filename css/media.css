@@ -213,6 +213,9 @@
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+    .services__title{
+        font-size: 3.2rem;
+    }
     .review{
         background-color: white;
     }
@@ -227,10 +230,6 @@
     .services__item{
         padding: 1rem;
     }
-    .about__H2{
-        font-size: 1.5rem;
-    }
-
     .services__item{
         max-width: 300rem;
     }
@@ -278,7 +277,8 @@
 }
 @media only screen and (max-width : 420px){
     .services__title{
-        font-size: 3.2rem;
+            font-size: 2.5rem;
+    padding-top: 2rem;
     }
     .slick-dots li{
         padding: 0.3rem;
@@ -334,13 +334,19 @@
         width: 16rem;
         height: 12rem;
     }
+    .about__top__title {
+        font-size: 2.7rem;
+    }
+    .about__top__title.green {
+        font-size: 1.9rem;
+    }
 
 }
 
 }
 @media only screen and (max-width : 350px){
     .services__title{
-        font-size: 2.8rem;
+        font-size: 2.5rem;
     }
     .about__title{
         font-size: 3rem;

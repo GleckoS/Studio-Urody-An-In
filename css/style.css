@@ -14,14 +14,13 @@ a {
 }
 
 body {
-    /*font-family: 'Playfair Display', serif;*/
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
     line-height: 1.7;
     color: #646f6f;
     font-weight: 300;
     font-size: 1rem;
-
+    background-color: white !important;
 }
 h1{
     display: none;
@@ -46,12 +45,14 @@ h4 {
     padding: 0.625rem;
     margin: 0.625rem;
     text-align: center;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 }
 h2{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 2rem;
     margin: 1.5rem 0;
+    font-weight: 600;
 }
 h3{
     color: #000000;
@@ -60,7 +61,8 @@ h3{
     padding: 0.625rem;
     margin: 0.625rem;
     text-align: center;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 .header {
@@ -126,7 +128,7 @@ section {
 }
 
 .menu a:hover {
-    color: #DE1B1B;
+    color: #64bbbd;
 }
 
 .menu li + li {
@@ -158,11 +160,11 @@ section {
     font-weight: 300;
     letter-spacing: 0.0625rem;
     margin-bottom: 1.375rem;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     transition: all 1s ease 0s;
     transform: translate(0, 4rem);
     opacity: 0;
-    text-shadow: 0px 0px 3px rgba(255, 0, 0, 1);
+    text-shadow: 0 0 3px rgb(100, 187, 189);
 }
 
 .slider__title._active {
@@ -174,12 +176,12 @@ section {
     font-size: 6rem;
     line-height: 5.625rem;
     color: #fff;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 3.125rem;
     transition: all 1.5s ease 0.5s;
     transform: translate(0, 30%);
     opacity: 0;
-    text-shadow: 0px 0px 3px rgba(255, 0, 0, 1);
+    text-shadow: 0 0 3px rgb(100, 187, 189);
 }
 
 .slider__text._active {
@@ -193,7 +195,7 @@ section {
     line-height: 1.3rem;
     padding: 0.5rem 1.875rem 0.5rem 1.5rem;
     font-weight: 500;
-    border-bottom: #DE1B1B 0.0625rem solid;
+    border-bottom: #64bbbd 0.0625rem solid;
 }
 
 .slider__inner {
@@ -278,7 +280,7 @@ span em{
 .about__top__text {
     font-size: 1rem;
     line-height: 1.875rem;
-    font-weight: 400;
+    font-weight: 300;
     text-align: justify;
 }
 
@@ -297,30 +299,31 @@ span em{
 .about__top__title {
     line-height: 1;
     font-size: 3.25rem;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 300;
     color: #000000;
 
 }
 .about__top__title.green{
-    font-size: 2.8rem;
+    font-size: 2.6rem;
 }
 
 .about__top__information__wrapper {
     padding: 2.5rem;
-    border: #DE1B1B 0.0625rem solid;
+    border: #64bbbd 0.0625rem solid;
 }
 
 .green {
-    color: #DE1B1B;
-    font-weight: 800;
+    color: #64bbbd;
+    font-weight: 600;
+
 }
 
 .about__H2 {
     font-size: 2rem;
-    color: #DE1B1B;
-    font-family: 'Playfair Display', serif;
-    font-weight: 500;
+    color: #64bbbd;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     margin-top: 0;
     margin-bottom: 3rem
 }
@@ -345,7 +348,7 @@ span em{
     position: absolute;
     width: 18.75rem;
     height: 0.0009375rem;
-    background-color: #DE1B1B;
+    background-color: #64bbbd;
     left: 0;
     top: 2.8125rem;
     content: "";
@@ -353,9 +356,9 @@ span em{
 
 .services__title {
     font-size: 4rem;
-    font-family: 'Playfair Display', serif;
-    font-weight: 500;
-    color: #DE1B1B;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #64bbbd;
     margin-bottom: 0.625rem;
     transform: translate(70%, 0);
     opacity: 0;
@@ -415,11 +418,11 @@ span em{
 }
 
 .services__item-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     color: #212020;
     font-size: 1.5rem;
     line-height: 1.2;
-    font-weight: 500;
+    font-weight: 600;
     margin: 1rem 0;
 }
 
@@ -439,18 +442,6 @@ span em{
     padding: 1.5625rem 0 2.8125rem;
     position: relative;
 }
-
-.about:before {
-    position: absolute;
-    content: "";
-    left: 0;
-    bottom: 0;
-    right: 0;
-    top: 0;
-    background: rgba(0, 0, 0, 0.4);
-    max-height: 37.5rem;
-}
-
 .about__title {
     text-align: center;
     font-size: 4.5rem;
@@ -460,7 +451,7 @@ span em{
     font-weight: 500;
     letter-spacing: 0.0625rem;
     margin-bottom: 1.25rem;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     margin-top: 1.25rem;
     transform: translate(0, 90%);
     opacity: 0;
@@ -515,7 +506,7 @@ span em{
 }
 
 .review__H1 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 4rem;
     line-height: 1;
     font-weight: 300;
@@ -527,7 +518,7 @@ span em{
     position: absolute;
     width: 18.75rem;
     height: 0.0625rem;
-    background-color: #DE1B1B;
+    background-color: #64bbbd;
     left: 0;
     bottom: 0;
     content: "";
@@ -539,7 +530,7 @@ span em{
     line-height: 1.7;
 }
 .footer__copyr {
-    background-color: #333333;
+    background-color: #292424;
     padding: 1.125rem;
 }
 
@@ -547,7 +538,7 @@ span em{
     padding: 0.625rem 0;
     text-align: center;
     color: #FFFFFF;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 0.75rem;
     line-height: 1.5rem;
     margin: 0 0;
@@ -557,7 +548,7 @@ span em{
     display: flex;
     justify-content: space-around;
     color: #fff;
-    background-color: #333333;
+    background-color: #292424;
 }
 
 .footer__info {
@@ -583,7 +574,7 @@ span em{
     content: "\f095";
     position: absolute;
     left: 0.1875rem;
-    color: #DE1B1B;
+    color: #64bbbd;
 }
 
 .footer__email {
@@ -596,7 +587,7 @@ span em{
     content: "\f003";
     position: absolute;
     left: 0;
-    color: #DE1B1B;
+    color: #64bbbd;
 }
 
 .footer__adres {
@@ -609,7 +600,7 @@ span em{
     content: "\f041";
     position: absolute;
     left: 0.1875rem;
-    color: #DE1B1B;
+    color: #64bbbd;
 }
 
 .map {
@@ -671,11 +662,11 @@ span em{
     font-weight: 100;
     letter-spacing: 0.0625rem;
     margin-bottom: 1.375rem;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     transition: all 1s ease 0s;
     transform: translate(0, 4rem);
     opacity: 0;
-    text-shadow: 0px 0px 3px rgba(255, 0, 0, 1);
+    text-shadow: 0 0 3px rgb(100, 187, 189);
 }
 .pages__slider__title._active {
     opacity: 1;
@@ -723,7 +714,7 @@ span em{
 .masters__title{
     text-align: center;
     font-size: 4rem;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     color: black;
     font-weight: 300;
     line-height: 1.2;
@@ -744,7 +735,7 @@ span em{
     position: absolute;
     width: 18rem;
     height: 0.0625rem;
-    background-color: #DE1B1B;
+    background-color: #64bbbd;
     margin-top: 5rem;
     align-self: center;
     content: "";
@@ -770,7 +761,7 @@ span em{
 .salon__tour__a{
     padding: 1rem 3rem;
 
-    background-color: #DE1B1B;
+    background-color: #64bbbd;
     font-weight: 500;
     color: #ffffff;
 }
@@ -781,7 +772,7 @@ span em{
     padding-bottom: 1rem;
 }
 .kontakt{
-    height: 54.8125rem;
+    height: 100%;
     background: #fafafa;
 }
 .kontakt__map{
@@ -792,7 +783,7 @@ span em{
 
 }
 .kontakt__main{
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
     color: #000;
@@ -810,9 +801,6 @@ span em{
 }
 .mb-4{
     margin-bottom: 1.5rem;
-}
-.kontakt__short__inform{
-    padding-top: 5rem;
 }
 .services__items__serv {
     transition: all 1s ease 0s;
@@ -907,4 +895,37 @@ button:hover .circle .icon.arrow {
 button:hover .button-text {
     color: #fff;
 }
-/*1*/
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.facebook img,
+.instagram img{
+    max-width: 6rem;
+    margin: 2rem;
+    cursor: pointer;
+    transition: 1s all ease;
+}
+.facebook img:hover,
+.instagram img:hover{
+    transform: scale(1.2);
+}
+.social{
+    transition: 1s all ease;
+    opacity: 0;
+}
+.social._active{
+    opacity: 1;
+}
+.facebookKontakt img,
+.instagramKontakt img{
+    max-width: 4rem;
+    margin: 1rem;
+    cursor: pointer;
+    transition: 1s all ease;
+}
+.facebookKontakt img:hover,
+.instagramKontakt img:hover{
+    transform: scale(1.1);
+}
