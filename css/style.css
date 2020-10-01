@@ -656,7 +656,7 @@ span em{
 }
 
 .pages__slider__title {
-    font-size: 7rem;
+    font-size: 6rem;
     line-height: 6rem;
     color: #fff;
     font-weight: 100;
@@ -749,7 +749,7 @@ span em{
     padding-left: 0.9375rem;
 }
 .masters__text__p {
-    padding: 0 1rem;
+    padding: 0 1rem 2rem;
 }
 .salon__tour{
     height: 17.5625rem;
