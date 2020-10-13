@@ -408,13 +408,20 @@ span em{
     margin: 0 !important;
     background-color: #f9f9f9;
     align-items: center;
+    position: relative;
+    width: 360px;
 }
 .about__img {
     margin: 0 auto !important;
+width: 50px;
+    height: 50px;
 
 }
 .services__item-btn{
     padding-top: 2rem;
+    position: absolute;
+    bottom: 20px;
+    transform: translateX(18%);
 }
 
 .services__item-title {
@@ -634,7 +641,7 @@ span em{
 #depilacja,
 #przedluzanie,
 #tatuaz,
-#makijaz,
+#laser,
 #masaz,
 #kosmetologia,
 #fryzjer {
