@@ -36,7 +36,7 @@ $('.services__items').slick({
             }
         },
         {
-            breakpoint: 480,
+            breakpoint: 676,
             settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1

@@ -49,16 +49,16 @@
     }
 
     button .circle {
-        width: 100%!important;
+        width: 100% !important;
     }
 
     button .circle .icon.arrow {
-        background: #FFFFFF!important;
-        transform: translate(1rem, 0)!important;
+        background: #FFFFFF !important;
+        transform: translate(1rem, 0) !important;
     }
 
     button .button-text {
-        color: #fff!important;
+        color: #fff !important;
     }
 }
 
@@ -342,9 +342,9 @@
         }
 
         .kontakt__map {
-            padding: 0;
-            padding-bottom: 2rem;
+            padding: 0 0 2rem;
         }
+
     }
 
 }
