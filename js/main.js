@@ -6,15 +6,17 @@ $('.slider__inner, .news__slider-inner').slick({
     autoplaySpeed: 4000,
     arrows: false,
 })
+
 $('.header__btn__menu').on('click', function() {
-    $('.menu ul').slideToggle()
-    let element = document.getElementById("slider__inner")
+    $('.menu ul').slideToggle();
+    let element = document.getElementById("slider__inner");
     if(!(element.classList.contains('displayNone'))) {
-        element.classList.add("displayNone")
+        element.classList.add("displayNone");
     } else{
-        element.classList.remove("displayNone")
+        element.classList.remove("displayNone");
     }
-})
+});
+
 $('.services__items').slick({
     nextArrow: '<button type="button" class="slick-btn slick-next"> </button>',
     prevArrow: '<button type="button" class="slick-btn slick-prev"> </button>',
@@ -42,12 +44,12 @@ $('.services__items').slick({
         }]
 })
 
-$(window).on('load', function () {
-    $preloader = $('#cube-loader'),
-        $loader = $preloader.find('.caption')
-    $loader.delay().fadeOut()
-    $preloader.delay(350).fadeOut('slow')
-})
+
+const Fryzjer = [
+    {name: "Klasyczne bikini", cena: "150zł" },{name: "Brazylijskie bikini", cena: "180zł"},{name: "Łydki", cena: "250zł"}
+]
+
+
 const animItems = document.querySelectorAll(`._anim-items`)
 if (animItems.length > 0) {
     window.addEventListener(`scroll`, animOnScroll)
@@ -71,12 +73,14 @@ if (animItems.length > 0) {
             }
         }
     }
+
     function offset(el) {
         const rect = el.getBoundingClientRect()
         let scrollLeft = window.pageXOffset || document.documentElement.scrollLeft
         let scrollTop = window.pageYOffset || document.documentElement.scrollTop
         return {top: rect.top + scrollTop, left: rect.left + scrollLeft}
     }
+
     setTimeout(() => {
         animOnScroll()
     }, 300)
