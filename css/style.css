@@ -528,13 +528,11 @@ span em {
     right: 0;
     left: 50%;
     opacity: 0;
-    transform: translate(80%, 0);
     transition: all 1s ease 0s;
 }
 
 .review__text._active {
     opacity: 1;
-    transform: translate(0, 0);
 }
 
 .review__H1 {
