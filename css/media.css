@@ -19,6 +19,7 @@
 
 @media only screen and (max-width: 1200px) {
     .kontakt__wrapper {
+        -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     }
 
@@ -40,12 +41,16 @@
 @media only screen and (max-width: 1024px) {
     .review__text {
         opacity: 0;
-        transform: translate(0, 10%);
+        -webkit-transform: translate(0, 10%);
+            -ms-transform: translate(0, 10%);
+                transform: translate(0, 10%);
     }
 
     .review__text._active {
         opacity: 1;
-        transform: translate(0, 0);
+        -webkit-transform: translate(0, 0);
+            -ms-transform: translate(0, 0);
+                transform: translate(0, 0);
     }
 
     button .circle {
@@ -54,7 +59,9 @@
 
     button .circle .icon.arrow {
         background: #FFFFFF !important;
-        transform: translate(1rem, 0) !important;
+        -webkit-transform: translate(1rem, 0) !important;
+            -ms-transform: translate(1rem, 0) !important;
+                transform: translate(1rem, 0) !important;
     }
 
     button .button-text {
@@ -74,8 +81,12 @@
 
     .footer__map {
         padding: 0 0.9375rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
 
     .footer__num::before,
@@ -99,8 +110,12 @@
     }
 
     .review__img__wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
 
     .review__text {
@@ -117,6 +132,7 @@
     }
 
     .services__items__serv {
+        -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
         justify-items: center;
     }
@@ -164,7 +180,9 @@
     }
 
     .services__title {
-        transform: translate(0, 6rem);
+        -webkit-transform: translate(0, 6rem);
+            -ms-transform: translate(0, 6rem);
+                transform: translate(0, 6rem);
     }
 
     .header__btn__menu {
@@ -238,6 +256,7 @@
         }
 
         .services__items__serv {
+            -ms-grid-columns: 1fr;
             grid-template-columns: 1fr;
         }
 
