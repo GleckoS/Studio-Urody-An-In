@@ -11,6 +11,19 @@ a {
   display: inline-block;
   color: #fff;
 }
+@keyframes jump {
+  0% {}
+  50%{
+    border-bottom: #64bbbd 1px solid;
+  }
+  100% {
+    border-bottom: #64bbbd 1px solid;
+  }
+}
+a:focus,
+button:focus{
+  animation: jump 1s linear;
+}
 body {
   font-family: 'Poppins', sans-serif;
   overflow-x: hidden;

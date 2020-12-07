@@ -42,15 +42,15 @@
     .review__text {
         opacity: 0;
         -webkit-transform: translate(0, 10%);
-            -ms-transform: translate(0, 10%);
-                transform: translate(0, 10%);
+        -ms-transform: translate(0, 10%);
+        transform: translate(0, 10%);
     }
 
     .review__text._active {
         opacity: 1;
         -webkit-transform: translate(0, 0);
-            -ms-transform: translate(0, 0);
-                transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        transform: translate(0, 0);
     }
 
     button .circle {
@@ -60,8 +60,8 @@
     button .circle .icon.arrow {
         background: #FFFFFF !important;
         -webkit-transform: translate(1rem, 0) !important;
-            -ms-transform: translate(1rem, 0) !important;
-                transform: translate(1rem, 0) !important;
+        -ms-transform: translate(1rem, 0) !important;
+        transform: translate(1rem, 0) !important;
     }
 
     button .button-text {
@@ -85,8 +85,8 @@
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
     }
 
     .footer__num::before,
@@ -114,8 +114,8 @@
         display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
     }
 
     .review__text {
@@ -181,8 +181,8 @@
 
     .services__title {
         -webkit-transform: translate(0, 6rem);
-            -ms-transform: translate(0, 6rem);
-                transform: translate(0, 6rem);
+        -ms-transform: translate(0, 6rem);
+        transform: translate(0, 6rem);
     }
 
     .header__btn__menu {
@@ -243,7 +243,7 @@
 
         .review__img {
             max-width: 33.5rem;
-            max-height: 35rem;
+            max-height: 35.5rem;
             width: auto;
         }
 
@@ -265,7 +265,7 @@
         .review__img__wrapper,
         .review__img {
             max-width: 30.8rem;
-            max-height: 32.8rem;
+            max-height: 30.8rem;
         }
 
 
@@ -304,7 +304,7 @@
         .review__img__wrapper,
         .review__img {
             max-width: 27rem;
-            max-height: 29rem;
+            max-height: 27rem;
         }
 
         .services__item {
@@ -385,7 +385,7 @@
     .review__img__wrapper,
     .review__img {
         max-width: 22rem;
-        max-height: 24rem;
+        max-height: 22rem;
     }
 
     .slider__title {
@@ -470,7 +470,7 @@
     .review__img__wrapper,
     .review__img {
         width: 18rem;
-        height: 20rem;
+        height: 18rem;
     }
 
 

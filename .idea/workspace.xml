@@ -13,23 +13,9 @@
     <list default="true" id="cb5090bf-2757-43b9-a3f7-e318c683842f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/hero_bg_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/hero_bg_22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/hero_bg_23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/hero_bg_24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/hero_bg_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/hero_bg_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/hero_bg_Main.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/img_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/person_alona.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/person_ania.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/person_helena.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/person_ina.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/person_irena.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/person_svetlana.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/review_img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kontakt.html" beforeDir="false" afterPath="$PROJECT_DIR$/kontakt.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/services.html" afterDir="false" />
     </list>
@@ -96,6 +82,11 @@
       <workItem from="1603288707854" duration="6240000" />
       <workItem from="1603354776377" duration="262000" />
       <workItem from="1603355187835" duration="647000" />
+      <workItem from="1603728450689" duration="9000" />
+      <workItem from="1604254792515" duration="20000" />
+      <workItem from="1606943746448" duration="640000" />
+      <workItem from="1607364382828" duration="193000" />
+      <workItem from="1607367795788" duration="2322000" />
     </task>
     <servers />
   </component>
