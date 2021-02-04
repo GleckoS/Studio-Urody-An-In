@@ -650,7 +650,9 @@ span em {
   justify-content: space-between;
   margin: 1rem 0;
   font-size: 1.1rem;
+  position: relative;
 }
+
 .displayNone {
   display: none;
 }

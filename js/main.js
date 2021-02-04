@@ -110,7 +110,7 @@ const fryzjerA = [
 fryzjerA.map(item => {
     let str = ` <li class="dialog__item">
           <strong>${item.name}</strong>
-          <strong>${item.cena}</strong>
+          <span><strong>${item.cena}</strong></span>
   </li>`
     let doc = new DOMParser().parseFromString(str, 'text/xml')
     document.getElementById("fryzjerA").append(doc.firstChild)
@@ -162,7 +162,7 @@ const fryzjerB = [
 fryzjerB.map(item => {
     let str = ` <li class="dialog__item">
           <strong>${item.name}</strong>
-          <strong>${item.cena}</strong>
+          <span><strong>${item.cena}</strong></span>
   </li>`
     let doc = new DOMParser().parseFromString(str, 'text/xml')
     document.getElementById("fryzjerB").append(doc.firstChild)
@@ -194,7 +194,7 @@ const fryzjerC = [
 fryzjerC.map(item => {
     let str = ` <li class="dialog__item">
           <strong>${item.name}</strong>
-          <strong>${item.cena}</strong>
+          <span><strong>${item.cena}</strong></span>
   </li>`
     let doc = new DOMParser().parseFromString(str, 'text/xml')
     document.getElementById("fryzjerC").append(doc.firstChild)
@@ -246,7 +246,7 @@ const manicureA = [
 manicureA.map(item => {
     let str = ` <li class="dialog__item">
           <strong>${item.name}</strong>
-          <strong>${item.cena}</strong>
+          <span><strong>${item.cena}</strong></span>
   </li>`
     let doc = new DOMParser().parseFromString(str, 'text/xml')
     document.getElementById("manicureA").append(doc.firstChild)
@@ -278,7 +278,7 @@ const pedicureA = [
 pedicureA.map(item => {
     let str = ` <li class="dialog__item">
           <strong>${item.name}</strong>
-          <strong>${item.cena}</strong>
+          <span><strong>${item.cena}</strong></span>
   </li>`
     let doc = new DOMParser().parseFromString(str, 'text/xml')
     document.getElementById("pedicureA").append(doc.firstChild)
@@ -314,7 +314,7 @@ const przedluzanieA = [
 przedluzanieA.map(item => {
     let str = ` <li class="dialog__item">
           <strong>${item.name}</strong>
-          <strong>${item.cena}</strong>
+          <span><strong>${item.cena}</strong></span>
   </li>`
     let doc = new DOMParser().parseFromString(str, 'text/xml')
     document.getElementById("przedluzanieA").append(doc.firstChild)
@@ -390,7 +390,7 @@ const depilacjaA = [
 depilacjaA.map(item => {
     let str = ` <li class="dialog__item">
           <strong>${item.name}</strong>
-          <strong>${item.cena}</strong>
+          <span><strong>${item.cena}</strong></span>
   </li>`
     let doc = new DOMParser().parseFromString(str, 'text/xml')
     document.getElementById("depilacjaA").append(doc.firstChild)
@@ -482,7 +482,7 @@ const depilacjaB = [
 depilacjaB.map(item => {
     let str = ` <li class="dialog__item">
           <strong>${item.name}</strong>
-          <strong>${item.cena}</strong>
+          <span><strong>${item.cena}</strong></span>
   </li>`
     let doc = new DOMParser().parseFromString(str, 'text/xml')
     document.getElementById("depilacjaB").append(doc.firstChild)
@@ -522,7 +522,7 @@ const tatuazA = [
 tatuazA.map(item => {
     let str = ` <li class="dialog__item">
           <strong>${item.name}</strong>
-          <strong>${item.cena}</strong>
+          <span><strong>${item.cena}</strong></span>
   </li>`
     let doc = new DOMParser().parseFromString(str, 'text/xml')
     document.getElementById("tatuazA").append(doc.firstChild)
@@ -566,7 +566,7 @@ const laserA = [
 laserA.map(item => {
     let str = ` <li class="dialog__item">
           <strong>${item.name}</strong>
-          <strong>${item.cena}</strong>
+          <span><strong>${item.cena}</strong></span>
   </li>`
     let doc = new DOMParser().parseFromString(str, 'text/xml')
     document.getElementById("laserA").append(doc.firstChild)
@@ -633,7 +633,7 @@ const masazA = [
 masazA.map(item => {
     let str = ` <li class="dialog__item">
           <strong>${item.name}</strong>
-          <p><strong>${item.cena}</strong><small> ${item.czas}</small></p>
+          <span><strong>${item.cena}</strong></span>
   </li>`
     let doc = new DOMParser().parseFromString(str, 'text/xml')
     document.getElementById("masazA").append(doc.firstChild)
@@ -689,7 +689,7 @@ const kosmetologiaA = [
 kosmetologiaA.map(item => {
     let str = ` <li class="dialog__item">
           <strong>${item.name}</strong>
-          <strong>${item.cena}</strong>
+          <span><strong>${item.cena}</strong></span>
   </li>`
     let doc = new DOMParser().parseFromString(str, 'text/xml')
     document.getElementById("kosmetologiaA").append(doc.firstChild)
